@@ -18,7 +18,7 @@ int main_numberMaster(void) {
 		int answer = -1;
 		scanf_s("%d", &answer);
 		if (answer == -1) {
-			printf("program is closed\n");
+			printf("The program will be shut down\n");
 			exit(0);
 		}
 		else if (answer == num1 * num2) {
